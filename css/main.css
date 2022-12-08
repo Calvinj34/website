@@ -1,0 +1,74 @@
+body,html{
+    height:100%;
+    width: 100%;
+    margin: 0px;
+}
+
+
+nav li{
+    display: inline;
+    font-style: italic;
+    font: bold;
+    margin: 30px;
+}
+
+nav ul{
+    background-color: green;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 25px;
+    
+}
+
+nav{
+    display:block;
+    color: black
+}
+
+nav a{
+    color:aqua;
+    text-decoration: none;
+    }
+
+nav a:hover{
+    color: yellow
+}
+
+.hero-image{
+    background-image: url("../Images/IceFishing.jpg");
+    height:30%;
+    width:75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.hero.text{
+    color:black;
+    text-align:center;
+    position:absolute;
+    top: 50%;
+    left:40%;
+    transform:translate(50%, -50%);
+    }
+
+#main{
+        width: 70%;
+        float:left;
+        height:100%;
+        padding-left: 10px;
+        padding-top: 21px;
+}
+.side-list{
+    width:25%;
+    height: 100%;
+    float: right;
+}
+
+.side-list{
+    width: 20%;
+    height:100%;
+    float:right;
+}
