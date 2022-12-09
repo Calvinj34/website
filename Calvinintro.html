@@ -20,16 +20,19 @@
     </div>
     <div class="container">
         <div class="row hero-image">
-            <div class="col hero-text">
+            <div class="container hero-text">
                 <h1 style=" font: size 50px;">Calvins Bio</h1>
                 <p> "A future Python programmer"</p>
-                <img id="profile-image" src="Images/Me.jpg">
+
             </div>
         </div>
     </div>
+
     <div class="container">
         <article>
             <h1>About me</h1>
+            <img class="img-fluid" id="profile-image" src="Images/Me.jpg">
+            <br>
             <Strong><small></small>My name is Calvin johnson and I am a Husband and a father of 3 energetic
                 kiddos.
                 I have an 11 yera old daughter, a 7 year old son, and and 1.5 year old son. I am born and raised
@@ -41,12 +44,14 @@
                 process Analyst at JLL in but I am looking forward to starting my career in software
                 engineering.
                 </p>
-                <img src="Images/Familypicture.JPG">
-                <img src="Images/wolfpack.jpg">
+                <div id='imgs' class="row">
+                    <img src="Images/Familypicture.JPG">
+                    <img src="Images/wolfpack.jpg">
+                </div>
         </article>
     </div>
     <div class="container">
-        
+
         <h1>Hobbies and Interest</h1>
         <article>
             <Strong><small></small>Living in colorado I have alot of outdoor hobbies but I would have to say
@@ -57,7 +62,7 @@
                 have
                 been hooked ever since. </Strong>
             <figure>
-                <img class='img-fluid' src="Images/IceFishing.jpg">
+                <img class='img-fluid' id="ice" src="Images/IceFishing.jpg">
                 <figcaption><em>Lots of fish in a little time!</em></figcaption>
             </figure>
         </article>
@@ -95,13 +100,13 @@
             </label>
             <br>
             <textarea id="body" placeholder="Your message" rows="3"></textarea>
-           
+
         </article>
     </div>
-<footer>
-    <hr>
+    <footer>
+        <hr>
         <h6>&copy Calvin Johnson</h6>
-</footer>
+    </footer>
 
 </body>
 

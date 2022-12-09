@@ -75,3 +75,17 @@ nav a:hover{
     height:100%;
     float:right;
 }
+#profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+article > h1 {
+    text-align: center;
+}
+
+#imgs {
+    display: flex;
+    justify-content: center;
+}
